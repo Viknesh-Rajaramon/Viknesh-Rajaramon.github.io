@@ -287,11 +287,6 @@ a {
   background-color: var(--first-color-lighter);
 }
 
-.button--document {
-  margin-left: var(--mb-1-5);
-  margin-right: var(--mb-1-5);
-}
-
 .button__icon {
   font-size: 1.25rem;
   margin-left: var(--mb-0-5);
