@@ -39,7 +39,7 @@
   -webkit-transition-property: transform;
   transition-property: transform;
 }
-.hvr-grow3:hover, .hvr-grow2:focus, .hvr-grow2:active {
+.hvr-grow3:hover, .hvr-grow3:focus, .hvr-grow3:active {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
