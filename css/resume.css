@@ -239,39 +239,34 @@ section.resume-section {
   transition: .3s ease-in-out;
 }
 
-.sib {
+.s1 {
   width: 13%;
   height: 13%;
 }
 
-.siz {
+.s2 {
   width: 10%;
   height: 10%;
 }
 
-.size {
-    width: 8.5%;
-  height: 8.5%;
-}
-
-.sz {  
+.s3 {  
   width: 7%;
   height: 7%;
 }
 
-.ss {
+.s4 {
   width: 6%;
   height: 6%; 
 }
 
-.sze {  
+.s5 {  
   width: 5%;
   height: 5%;
 }
 
-.se {  
-  width: 4.85%;
-  height: 4.85%;
+.s6 {  
+  width: 3%;
+  height: 3%;
 }
 
 .hov:hover {
@@ -308,28 +303,30 @@ section.resume-section .resume-item .resume-date {
     display: inline;
     text-align: center;
   }
-  .sz {
+  .s1 {
+    width: 10%;
+    height: 10%;  
+  }
+  .s2 {
+    width: 7%;
+    height: 7%;  
+  }
+  .s3 {
     font-size: 40px !important;
+    width: 4%;
+    height: 4%;
   }
-  .ss {
-    width: 13%;
-    height: 13%;  
+  .s4 {
+    width: 3%;
+    height: 3%;
   }
-  .siz {
-    width: 10%;
-    height: 10%;  
+  .s5 {
+    width: 3%;
+    height: 3%;
   }
-  .sib {
-    width: 10%;
-    height: 10%;  
-  }
-  .sze {
-    width: 10%;
-    height: 10%;  
-  }
-  .se {
-    width: 10%;
-    height: 10%;  
+  .s6 {  
+    width: 2%;
+    height: 2%;
   }
   .hvr-forward {
     font-size: 75px; 
@@ -339,18 +336,6 @@ section.resume-section .resume-item .resume-date {
   }
   .social-icons a {
     align-items: center;
-  }
-  .siz {
-    width: 30%;
-    height: 30%;
-  }
-  .sz {
-    width: 15%;
-    height: 15%;    
-  }
-  .size {
-    width: 17%;
-    height: 17%;
   }
   .rem {
     display: none;
@@ -541,6 +526,11 @@ hr.star-primary:after {
   width: 360px;
 }
 
+.cert-img{
+  width: 360px;
+  height: 270px;
+}
+
 @media (max-width: 768px) {
   .pubt {
       text-align: center;
@@ -557,6 +547,10 @@ hr.star-primary:after {
   }
   .pub-img1{
     width: 280px;
+  }
+  .cert-img{
+    width: 280px;
+    height: 210px;
   }
   .title-reduce-size{
     font-size: 60px;
